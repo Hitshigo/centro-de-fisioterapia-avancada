@@ -1,0 +1,13 @@
+{
+  "name": "website-template",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "*",
+    "puppeteer-core": "*"
+  },
+  "scripts": {
+    "qa": "playwright test --config playwright.config.js",
+    "install-deps": "npm install --ignore-scripts"
+  }
+}
